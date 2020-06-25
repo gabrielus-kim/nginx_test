@@ -8,3 +8,6 @@ $ winpty docker run -it --name n1 -v c:\\Users\\user\\nginx_test:/nginx_test -p 
 root@bba4e5138327:/nginx_test# ls
 Dockerfile  README.md  install.sh
 
+## docker build : Dockerfile
+user@DESKTOP-14530KF MINGW64 ~/nginx_test (master)
+$ winpty docker build --tag gabriel111/nginx-test .
